@@ -14,4 +14,9 @@ export const componentsInfo = [
 		name: 'unnecessary useState',
 		path: '/3_unnecessary_usestate',
 	},
+	{
+		id: 4,
+		name: 'mutating object',
+		path: '/4_mutating_object',
+	},
 ];

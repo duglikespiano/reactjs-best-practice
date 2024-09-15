@@ -1,0 +1,36 @@
+# reactjs_best_practice(kr)
+
+##### [Click here for English version](README_EN.md)
+
+##### [日本語バージョンはこちらをクリックして下さい](README_JP.md)
+
+## - 목차 -
+
+1. 개요
+2. 프로젝트목표
+3. 내용
+   </br>
+   </br>
+
+### 1. 개요
+
+- 프로젝트명 : reactjs_best_practice
+- 관련URL : https://www.udemy.com/course/react-best-practices/
+- 기간 : 2024.09.15 - 진행중
+- 인원 : 1인
+- 기술스택 : </br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+  <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+  </br>
+  </br>
+
+### 2. 프로젝트목표
+
+1. 좋은, 좋지않은 react코드 작성에 대해 익힐 것
+2. react hooks에 대한 지식을 익힐 것
+   </br>
+   </br>
+
+### 3. 내용

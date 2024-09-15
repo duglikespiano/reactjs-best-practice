@@ -1,0 +1,37 @@
+# reactjs_best_practice(en)
+
+##### [한국어 버전은 이 곳을 클릭해주세요](README.md)
+
+##### [日本語バージョンはこちらをクリックして下さい](README_JP.md)
+
+## - Index -
+
+1. Overview
+2. Project goal
+3. Content
+   </br>
+   </br>
+
+### 1. Overview
+
+- Project title : reactjs_best_practice
+- Related URL : https://www.udemy.com/course/react-best-practices/
+- Period : Sep 15 2024 - In progress
+- Member(s) : Dug Park
+- Tech stack : </br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+  <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+  </br>
+  </br>
+
+### 2. Project goal
+
+1. To learn good, bad react code practices
+2. To study knowledge about react hooks
+
+   </br>
+   </br>
+
+### 3. content

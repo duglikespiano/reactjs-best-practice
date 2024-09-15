@@ -1,0 +1,13 @@
+@use '../../reset.scss';
+
+#UnnecessaryUseState {
+	h3 {
+		font-size: 3rem;
+	}
+
+	input {
+		width: 30rem;
+		height: 4rem;
+		font-size: 3rem;
+	}
+}

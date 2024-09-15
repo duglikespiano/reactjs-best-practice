@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { componentsInfo as components } from './componentsInfo';
+import './Home.scss';
 
 export default function Home() {
 	return (

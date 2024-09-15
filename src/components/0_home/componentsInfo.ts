@@ -5,8 +5,13 @@ export const componentsInfo = [
 		path: '/1_usestate_is_async',
 	},
 	{
-		id: 1,
+		id: 2,
 		name: 'defalt value',
 		path: '/2_default_value',
+	},
+	{
+		id: 3,
+		name: 'unnecessary useState',
+		path: '/3_unnecessary_usestate',
 	},
 ];

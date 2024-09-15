@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './DefaultValue.scss';
 
 export default function DefaultValue() {
-	// Code below will cause of type for default input
+	// Code below will cause because of type for default input
 	// const [input, setInput] = useState();
 
 	// Solution

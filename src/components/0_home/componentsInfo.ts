@@ -1,7 +1,7 @@
 export const componentsInfo = [
 	{
 		id: 1,
-		name: '',
-		path: '/1_',
+		name: 'useState is async',
+		path: '/1_usestate_is_async',
 	},
 ];

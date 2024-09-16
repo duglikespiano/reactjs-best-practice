@@ -6,6 +6,7 @@ import UnnecessaryUseState from './components/3_unnecessary_usestate/Unnecessary
 import MutatingObject from './components/4_mutating_object/MutatingObject';
 import PropDrilling from './components/5_prop_drilling/PropDrilling';
 import ProviderWrappingHell from './components/6_provider_wrapping_hell/ProviderWrappingHell';
+import RushingIntoReactMemo from './components/7_rushing_into_react_memo/RushingIntoReactMemo';
 
 const router = createBrowserRouter([
 	{
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
 	{
 		path: '/6_provider_wrapping_hell',
 		element: <ProviderWrappingHell />,
+	},
+	{
+		path: '/7_rushing_into_react_memo',
+		element: <RushingIntoReactMemo />,
 	},
 ]);
 

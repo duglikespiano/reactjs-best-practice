@@ -29,4 +29,9 @@ export const componentsInfo = [
 		name: 'provider wrapping hell',
 		path: '/6_provider_wrapping_hell',
 	},
+	{
+		id: 7,
+		name: 'rushing into react memo',
+		path: '/7_rushing_into_react_memo',
+	},
 ];

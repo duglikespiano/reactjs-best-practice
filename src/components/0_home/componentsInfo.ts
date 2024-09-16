@@ -19,4 +19,9 @@ export const componentsInfo = [
 		name: 'mutating object',
 		path: '/4_mutating_object',
 	},
+	{
+		id: 5,
+		name: 'prop drilling',
+		path: '/5_prop_drilling',
+	},
 ];

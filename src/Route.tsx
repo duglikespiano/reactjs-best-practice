@@ -4,6 +4,7 @@ import UseStateIsAsync from './components/1_usestate_is_async/UseStateIsAsync';
 import DefaultValue from './components/2_default_value/DefaultValue';
 import UnnecessaryUseState from './components/3_unnecessary_usestate/UnnecessaryUseState';
 import MutatingObject from './components/4_mutating_object/MutatingObject';
+import PropDrilling from './components/5_prop_drilling/PropDrilling';
 
 const router = createBrowserRouter([
 	{
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
 	{
 		path: '/4_mutating_object',
 		element: <MutatingObject />,
+	},
+	{
+		path: '/5_prop_drilling',
+		element: <PropDrilling />,
 	},
 ]);
 

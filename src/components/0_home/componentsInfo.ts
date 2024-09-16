@@ -24,4 +24,9 @@ export const componentsInfo = [
 		name: 'prop drilling',
 		path: '/5_prop_drilling',
 	},
+	{
+		id: 6,
+		name: 'provider wrapping hell',
+		path: '/6_provider_wrapping_hell',
+	},
 ];

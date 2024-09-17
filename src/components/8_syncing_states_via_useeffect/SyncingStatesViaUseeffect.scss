@@ -1,0 +1,16 @@
+#SyncingStatesViaUseeffect {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	font-size: 8rem;
+	flex-direction: column;
+	row-gap: 2rem;
+	justify-content: center;
+	align-items: center;
+
+	input {
+		display: inline-block;
+		width: 50rem;
+		font-size: inherit;
+	}
+}

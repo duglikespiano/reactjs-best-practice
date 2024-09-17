@@ -34,4 +34,9 @@ export const componentsInfo = [
 		name: 'rushing into react memo',
 		path: '/7_rushing_into_react_memo',
 	},
+	{
+		id: 8,
+		name: 'syncing states via useeffect',
+		path: '/8_syncing_states_via_useeffect',
+	},
 ];

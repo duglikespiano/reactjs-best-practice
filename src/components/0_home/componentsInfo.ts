@@ -39,4 +39,9 @@ export const componentsInfo = [
 		name: 'syncing states via useeffect',
 		path: '/8_syncing_states_via_useeffect',
 	},
+	{
+		id: 9,
+		name: 'conditional rendering',
+		path: '/9_conditional_rendering',
+	},
 ];

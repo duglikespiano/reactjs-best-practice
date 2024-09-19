@@ -9,6 +9,7 @@ import ProviderWrappingHell from './components/6_provider_wrapping_hell/Provider
 import RushingIntoReactMemo from './components/7_rushing_into_react_memo/RushingIntoReactMemo';
 import SyncingStatesViaUseeffect from './components/8_syncing_states_via_useeffect/SyncingStatesViaUseeffect';
 import ConditionalRendering from './components/9_conditional_rendering/ConditionalRendering';
+import UnnecessaryUseeffect from './components/10_unnecessary_useeffect/UnnecessaryUseeffect';
 
 const router = createBrowserRouter([
 	{
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
 	{
 		path: '/9_conditional_rendering',
 		element: <ConditionalRendering />,
+	},
+	{
+		path: '/10_unnecessary_useeffect',
+		element: <UnnecessaryUseeffect />,
 	},
 ]);
 

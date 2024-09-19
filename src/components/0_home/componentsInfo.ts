@@ -36,12 +36,17 @@ export const componentsInfo = [
 	},
 	{
 		id: 8,
-		name: 'syncing states via useeffect',
+		name: 'syncing states via useEffect',
 		path: '/8_syncing_states_via_useeffect',
 	},
 	{
 		id: 9,
 		name: 'conditional rendering',
 		path: '/9_conditional_rendering',
+	},
+	{
+		id: 10,
+		name: 'unnecessary useEffect',
+		path: '/10_unnecessary_useeffect',
 	},
 ];

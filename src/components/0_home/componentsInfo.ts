@@ -49,4 +49,9 @@ export const componentsInfo = [
 		name: 'unnecessary useEffect',
 		path: '/10_unnecessary_useeffect',
 	},
+	{
+		id: 11,
+		name: 'impossible state',
+		path: '/11_impossible_state',
+	},
 ];

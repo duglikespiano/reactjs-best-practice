@@ -10,6 +10,7 @@ import RushingIntoReactMemo from './components/7_rushing_into_react_memo/Rushing
 import SyncingStatesViaUseeffect from './components/8_syncing_states_via_useeffect/SyncingStatesViaUseeffect';
 import ConditionalRendering from './components/9_conditional_rendering/ConditionalRendering';
 import UnnecessaryUseeffect from './components/10_unnecessary_useeffect/UnnecessaryUseeffect';
+import ImpossibleState from './components/11_impossible_state/ImpossibleState';
 
 const router = createBrowserRouter([
 	{
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
 	{
 		path: '/10_unnecessary_useeffect',
 		element: <UnnecessaryUseeffect />,
+	},
+	{
+		path: '/11_impossible_state',
+		element: <ImpossibleState />,
 	},
 ]);
 

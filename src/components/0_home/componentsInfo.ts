@@ -54,4 +54,9 @@ export const componentsInfo = [
 		name: 'impossible state',
 		path: '/11_impossible_state',
 	},
+	{
+		id: 12,
+		name: 'encapsulation',
+		path: '/12_encapsulation',
+	},
 ];

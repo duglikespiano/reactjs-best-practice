@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 
 export default function Products() {
-	const [isLoading, setIsLoading] = useState(false);
-	const [error, setError] = useState(false);
-
 	// There will be a time gap between when loading's state gets true and finally gets false if an error occurs
+
+	// const [isLoading, setIsLoading] = useState(false);
+	// const [error, setError] = useState(false);
 	//
 	// const fetchProducts = async () => {
 	// 	try {

@@ -59,4 +59,9 @@ export const componentsInfo = [
 		name: 'encapsulation',
 		path: '/12_encapsulation',
 	},
+	{
+		id: 13,
+		name: 'separate components',
+		path: '/13_separate_components',
+	},
 ];

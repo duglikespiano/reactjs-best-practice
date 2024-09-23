@@ -24,7 +24,7 @@ export default function SyncingStatesViaUseeffect() {
 	const changeHanlder = (event: any) => {
 		const value = event.target.value;
 		setAge(value);
-		// *** important *** not if (age) >= 20, if(value) >= 20
+		// *** important *** it is not if (age) >= 20, it is if(value) >= 20
 		// it is because value is not being evaluated synchronously
 		if (value >= 20) {
 			setIsValidAge(true);

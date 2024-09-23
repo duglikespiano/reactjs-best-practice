@@ -1,6 +1,6 @@
 import { useState, Fragment } from 'react';
 
-export default function RootComponent() {
+export default function SeparateComponents() {
 	// Code below cause unnecessary re-rendering of the HeavyComponent
 	// const [name, setName] = useState('');
 	return (

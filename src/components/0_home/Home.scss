@@ -7,6 +7,7 @@
 	align-items: center;
 	justify-content: center;
 	font-size: 20rem;
+	padding: 2rem;
 
 	.component {
 		display: flex;
@@ -54,6 +55,9 @@
 		}
 		&:nth-of-type(13) {
 			background-color: rgb(0, 224, 249);
+		}
+		&:nth-of-type(14) {
+			background-color: rgb(168, 111, 20);
 		}
 	}
 }

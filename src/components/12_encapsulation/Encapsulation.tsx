@@ -9,7 +9,7 @@ type Settings = {
 };
 
 class UserModel {
-	constructor(public name: string, public lastname: string, public settings: Settings) {
+	constructor(public name: string, public lastname: string, public settings: Settings, public user: string) {
 		this.name = name;
 		this.lastname = lastname;
 		this.settings = settings;

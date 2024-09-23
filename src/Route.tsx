@@ -11,6 +11,8 @@ import SyncingStatesViaUseeffect from './components/8_syncing_states_via_useeffe
 import ConditionalRendering from './components/9_conditional_rendering/ConditionalRendering';
 import UnnecessaryUseeffect from './components/10_unnecessary_useeffect/UnnecessaryUseeffect';
 import ImpossibleState from './components/11_impossible_state/ImpossibleState';
+import Encapsulation from './components/12_encapsulation/Encapsulation';
+import SeparateComponents from './components/13_separate_components/SeparateComponents';
 
 const router = createBrowserRouter([
 	{
@@ -60,6 +62,31 @@ const router = createBrowserRouter([
 	{
 		path: '/11_impossible_state',
 		element: <ImpossibleState />,
+	},
+	{
+		path: '/12_encapsulation',
+		element: (
+			<Encapsulation
+				user={{
+					name: '',
+					lastname: '',
+					settings: {
+						theme: {
+							mode: 'dark',
+							version: 'classic',
+						},
+						otp: false,
+					},
+					user: '',
+					fullname: '',
+					mode: 'dark',
+				}}
+			/>
+		),
+	},
+	{
+		path: '/13_separate_components',
+		element: <SeparateComponents />,
 	},
 ]);
 

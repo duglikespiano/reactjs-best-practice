@@ -34,3 +34,18 @@
    </br>
 
 ### 3. 내용
+
+1. useState is async
+2. default value
+3. unnecessary useState
+4. mutating object
+5. prop drilling
+6. provider wrapping hell
+7. rushing into react memo
+8. syncing states via useEffect
+9. conditional rendering
+10. unnecessary useEffect
+11. impossible state
+12. encapsulation
+13. separate components
+14. impossible state2

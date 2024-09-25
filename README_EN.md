@@ -30,7 +30,6 @@
 
 1. To learn good, bad react code practices
 2. To study knowledge about react hooks
-
    </br>
    </br>
 

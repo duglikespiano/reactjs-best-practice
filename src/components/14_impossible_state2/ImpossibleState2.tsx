@@ -14,11 +14,17 @@ export default function ImpossibleState2() {
 
 	// Solution
 	// Emerge two states into a state and handle additional situation with variables
-	const [status, setStatus] = useState('empty');
+	const [status] = useState('empty');
 	const isEmpty = status === 'empty';
 	const isTyping = status === 'typing';
 
 	// Bunch of logic here...
 
-	return <></>;
+	return (
+		<>
+			{isEmpty}
+			{isTyping}
+			{isEmpty}
+		</>
+	);
 }

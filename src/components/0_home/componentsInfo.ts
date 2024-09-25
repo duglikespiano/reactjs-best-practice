@@ -64,4 +64,9 @@ export const componentsInfo = [
 		name: 'separate components',
 		path: '/13_separate_components',
 	},
+	{
+		id: 14,
+		name: 'impossible state2',
+		path: '/14_impossible_state2',
+	},
 ];

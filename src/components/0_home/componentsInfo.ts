@@ -69,4 +69,9 @@ export const componentsInfo = [
 		name: 'impossible state2',
 		path: '/14_impossible_state2',
 	},
+	{
+		id: 15,
+		name: 'grouping states',
+		path: '/15_grouping_states',
+	},
 ];

@@ -15,6 +15,7 @@ import Encapsulation from './components/12_encapsulation/Encapsulation';
 import SeparateComponents from './components/13_separate_components/SeparateComponents';
 import ImpossibleState2 from './components/14_impossible_state2/ImpossibleState2';
 import GroupingStates from './components/15_grouping_states/GroupingStates';
+import StateReset from './components/16_state_reset/StateReset';
 
 const router = createBrowserRouter([
 	{
@@ -97,6 +98,10 @@ const router = createBrowserRouter([
 	{
 		path: '/15_grouping_states',
 		element: <GroupingStates />,
+	},
+	{
+		path: '/16_state_reset',
+		element: <StateReset />,
 	},
 ]);
 

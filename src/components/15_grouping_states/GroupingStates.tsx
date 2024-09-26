@@ -18,6 +18,8 @@ export default function GroupingStates() {
 			onPointerMove={(event) => {
 				setPosition({ x: event.clientX, y: event.clientY });
 			}}
-		></div>
+		>
+			{position.x}
+		</div>
 	);
 }

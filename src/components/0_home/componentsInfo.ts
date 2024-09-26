@@ -74,4 +74,9 @@ export const componentsInfo = [
 		name: 'grouping states',
 		path: '/15_grouping_states',
 	},
+	{
+		id: 16,
+		name: 'state reset',
+		path: '/16_state_reset',
+	},
 ];

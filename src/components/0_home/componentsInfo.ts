@@ -79,4 +79,9 @@ export const componentsInfo = [
 		name: 'state reset',
 		path: '/16_state_reset',
 	},
+	{
+		id: 17,
+		name: 'redundant state',
+		path: '/17_redundant_state',
+	},
 ];

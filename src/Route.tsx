@@ -16,6 +16,7 @@ import SeparateComponents from './components/13_separate_components/SeparateComp
 import ImpossibleState2 from './components/14_impossible_state2/ImpossibleState2';
 import GroupingStates from './components/15_grouping_states/GroupingStates';
 import StateReset from './components/16_state_reset/StateReset';
+import RedundantState from './components/17_redundant_state/RedundantState';
 
 const router = createBrowserRouter([
 	{
@@ -102,6 +103,10 @@ const router = createBrowserRouter([
 	{
 		path: '/16_state_reset',
 		element: <StateReset />,
+	},
+	{
+		path: '/17_redundant_state',
+		element: <RedundantState />,
 	},
 ]);
 

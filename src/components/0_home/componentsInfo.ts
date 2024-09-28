@@ -84,4 +84,9 @@ export const componentsInfo = [
 		name: 'redundant state',
 		path: '/17_redundant_state',
 	},
+	{
+		id: 18,
+		name: 'caching',
+		path: '/18_caching',
+	},
 ];

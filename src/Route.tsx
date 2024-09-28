@@ -17,6 +17,7 @@ import ImpossibleState2 from './components/14_impossible_state2/ImpossibleState2
 import GroupingStates from './components/15_grouping_states/GroupingStates';
 import StateReset from './components/16_state_reset/StateReset';
 import RedundantState from './components/17_redundant_state/RedundantState';
+import Caching from './components/18_caching/Caching';
 
 const router = createBrowserRouter([
 	{
@@ -107,6 +108,10 @@ const router = createBrowserRouter([
 	{
 		path: '/17_redundant_state',
 		element: <RedundantState />,
+	},
+	{
+		path: '/18_caching',
+		element: <Caching />,
 	},
 ]);
 

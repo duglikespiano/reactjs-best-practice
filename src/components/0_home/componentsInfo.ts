@@ -89,4 +89,9 @@ export const componentsInfo = [
 		name: 'caching',
 		path: '/18_caching',
 	},
+	{
+		id: 19,
+		name: 'conditional rendering',
+		path: '/19_conditional_rendering2',
+	},
 ];

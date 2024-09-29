@@ -18,6 +18,7 @@ import GroupingStates from './components/15_grouping_states/GroupingStates';
 import StateReset from './components/16_state_reset/StateReset';
 import RedundantState from './components/17_redundant_state/RedundantState';
 import Caching from './components/18_caching/Caching';
+import ConditionalRendering2 from './components/19_conditional_rendering2/ConditionalRendering2';
 
 const router = createBrowserRouter([
 	{
@@ -112,6 +113,10 @@ const router = createBrowserRouter([
 	{
 		path: '/18_caching',
 		element: <Caching />,
+	},
+	{
+		path: '/19_conditional_rendering2',
+		element: <ConditionalRendering2 role={'ADMIN'} />,
 	},
 ]);
 

@@ -16,11 +16,16 @@ export default function Caching() {
 
 	const displayUser = async () => {
 		const user = await getUser();
+		console.log(user);
 	};
 
 	const modifyUser = async () => {
 		const user = await getUser();
+		console.log(user);
 	};
+
+	displayUser();
+	modifyUser();
 
 	return <div></div>;
 }

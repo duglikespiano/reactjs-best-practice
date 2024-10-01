@@ -94,4 +94,9 @@ export const componentsInfo = [
 		name: 'conditional rendering',
 		path: '/19_conditional_rendering2',
 	},
+	{
+		id: 20,
+		name: 'currying hanlder',
+		path: '/20_currying_handler',
+	},
 ];

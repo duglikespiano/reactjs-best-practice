@@ -99,6 +99,11 @@ export const componentsInfo = [
 		name: 'currying hanlder',
 		path: '/20_currying_handler',
 	},
+	{
+		id: 21,
+		name: 'enum',
+		path: '/21_enum',
+	},
 ];
 
 export const updateHexColor = () => {

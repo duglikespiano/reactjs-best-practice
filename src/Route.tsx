@@ -21,6 +21,7 @@ import Caching from './components/18_caching/Caching';
 import ConditionalRendering2 from './components/19_conditional_rendering2/ConditionalRendering2';
 import CurryingHandler from './components/20_currying_handler/CurryingHandler';
 import Enum from './components/21_enum/Enum';
+import FactoryPattern from './components/22_factory_pattern/FactoryPattern';
 
 const router = createBrowserRouter([
 	{
@@ -127,6 +128,10 @@ const router = createBrowserRouter([
 	{
 		path: '/21_enum',
 		element: <Enum />,
+	},
+	{
+		path: '/22_factory_pattern',
+		element: <FactoryPattern />,
 	},
 ]);
 

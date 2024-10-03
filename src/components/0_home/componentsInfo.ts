@@ -104,6 +104,11 @@ export const componentsInfo = [
 		name: 'enum',
 		path: '/21_enum',
 	},
+	{
+		id: 22,
+		name: 'factory pattern',
+		path: '/22_factory_pattern',
+	},
 ];
 
 export const updateHexColor = () => {

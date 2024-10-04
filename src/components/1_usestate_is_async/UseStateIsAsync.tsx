@@ -12,13 +12,13 @@ export default function UseStateIsAsync() {
 		// const userName = input.name;
 		// console.log(userName);
 
-		// Solution 1
+		// Solution1
 		// Access to user input directly
 		// const userName = value;
 		// console.log(userName);
 	};
 
-	// Solution 2
+	// Solution2
 	// Access to state whenever it is re-rendered
 	const userName = input.name;
 	console.log(userName);

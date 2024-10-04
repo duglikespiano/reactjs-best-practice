@@ -109,6 +109,11 @@ export const componentsInfo = [
 		name: 'factory pattern',
 		path: '/22_factory_pattern',
 	},
+	{
+		id: 23,
+		name: 'better if statement',
+		path: '/23_better_if_statement',
+	},
 ];
 
 export const updateHexColor = () => {

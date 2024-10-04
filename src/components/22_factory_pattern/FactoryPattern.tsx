@@ -4,7 +4,7 @@ const DateFilter = () => <div>Pick a date</div>;
 const CategoryFilter = () => <div>Select a category</div>;
 const NoFilter = () => null;
 
-// Code for Solution 1
+// Code for Solution1
 const createFilter = (data: DATA) => {
 	switch (data) {
 		case 'date':
@@ -16,7 +16,7 @@ const createFilter = (data: DATA) => {
 	}
 };
 
-// Code for Solution 2
+// Code for Solution2
 const filterFactory = {
 	date: DateFilter,
 	category: CategoryFilter,
@@ -36,10 +36,12 @@ export default function DisplayFilter() {
 	// 	return <NoFilter />;
 	// }
 
-	/* Solution 1
+	/* Solution1
      Divide them by making a separate function using switch statement outside of the component
       return createFilter(data);
-     Solution 2
+     Solution2
 	   Divide them by making an object to divide and check the data */
-	return filterFactory[data] ?? <NoFilter />;
+	// return filterFactory[data] ?? <NoFilter />;
+
+	return <div>Please check code</div>;
 }

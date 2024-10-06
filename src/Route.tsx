@@ -22,6 +22,8 @@ import ConditionalRendering2 from './components/19_conditional_rendering2/Condit
 import CurryingHandler from './components/20_currying_handler/CurryingHandler';
 import Enum from './components/21_enum/Enum';
 import FactoryPattern from './components/22_factory_pattern/FactoryPattern';
+import BetterIfStatement from './components/23_better_if_statement/BetterIfStatement';
+import NormalizingState from './components/24_normalizing_state/NormalizingState';
 
 const router = createBrowserRouter([
 	{
@@ -132,6 +134,14 @@ const router = createBrowserRouter([
 	{
 		path: '/22_factory_pattern',
 		element: <FactoryPattern />,
+	},
+	{
+		path: '/23_better_if_statement',
+		element: <BetterIfStatement />,
+	},
+	{
+		path: '/24_normalizing_state',
+		element: <NormalizingState />,
 	},
 ]);
 

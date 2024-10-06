@@ -43,5 +43,9 @@ export default function DisplayFilter() {
 	   Divide them by making an object to divide and check the data */
 	// return filterFactory[data] ?? <NoFilter />;
 
+	console.log(createFilter);
+	console.log(filterFactory);
+	console.log(data);
+
 	return <div>Please check code</div>;
 }

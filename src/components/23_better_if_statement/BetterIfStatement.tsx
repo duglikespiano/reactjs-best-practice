@@ -67,5 +67,7 @@ export default function BetterIfStatement() {
 	// Solution6
 	// Use arrow function without curly bracket if the code is only a single line
 
+	console.log(product);
+	console.log(payment);
 	return <div>Please check code</div>;
 }

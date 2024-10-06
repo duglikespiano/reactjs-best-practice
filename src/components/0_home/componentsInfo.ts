@@ -114,6 +114,11 @@ export const componentsInfo = [
 		name: 'better if statement',
 		path: '/23_better_if_statement',
 	},
+	{
+		id: 24,
+		name: 'normalizing state',
+		path: '/24_normalizing_state',
+	},
 ];
 
 export const updateHexColor = () => {

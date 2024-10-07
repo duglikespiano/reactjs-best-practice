@@ -119,6 +119,11 @@ export const componentsInfo = [
 		name: 'normalizing state',
 		path: '/24_normalizing_state',
 	},
+	{
+		id: 25,
+		name: 'form tips',
+		path: '/25_form_tips',
+	},
 ];
 
 export const updateHexColor = () => {

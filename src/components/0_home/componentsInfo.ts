@@ -124,6 +124,11 @@ export const componentsInfo = [
 		name: 'form tips',
 		path: '/25_form_tips',
 	},
+	{
+		id: 26,
+		name: 'react portal',
+		path: '/26_react_portal',
+	},
 ];
 
 export const updateHexColor = () => {

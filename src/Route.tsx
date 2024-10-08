@@ -1,4 +1,4 @@
-import { createBrowserRouter, Form, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/0_home/Home';
 import UseStateIsAsync from './components/1_usestate_is_async/UseStateIsAsync';
 import DefaultValue from './components/2_default_value/DefaultValue';
@@ -25,6 +25,7 @@ import FactoryPattern from './components/22_factory_pattern/FactoryPattern';
 import BetterIfStatement from './components/23_better_if_statement/BetterIfStatement';
 import NormalizingState from './components/24_normalizing_state/NormalizingState';
 import FormTips from './components/25_form_tips/FormTips';
+import ReactPortal from './components/26_react_portal/ReactPortal';
 
 const router = createBrowserRouter([
 	{
@@ -147,6 +148,10 @@ const router = createBrowserRouter([
 	{
 		path: '/25_form_tips',
 		element: <FormTips />,
+	},
+	{
+		path: '/26_react_portal',
+		element: <ReactPortal />,
 	},
 ]);
 

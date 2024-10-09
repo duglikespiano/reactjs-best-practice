@@ -26,6 +26,7 @@ import BetterIfStatement from './components/23_better_if_statement/BetterIfState
 import NormalizingState from './components/24_normalizing_state/NormalizingState';
 import FormTips from './components/25_form_tips/FormTips';
 import ReactPortal from './components/26_react_portal/ReactPortal';
+import ForwardingRefs from './components/27_forwarding_refs/ForwardingRefs';
 
 const router = createBrowserRouter([
 	{
@@ -152,6 +153,10 @@ const router = createBrowserRouter([
 	{
 		path: '/26_react_portal',
 		element: <ReactPortal />,
+	},
+	{
+		path: '/27_forwarding_refs',
+		element: <ForwardingRefs />,
 	},
 ]);
 

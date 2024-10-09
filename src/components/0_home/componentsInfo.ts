@@ -129,6 +129,11 @@ export const componentsInfo = [
 		name: 'react portal',
 		path: '/26_react_portal',
 	},
+	{
+		id: 27,
+		name: 'forwarding refs',
+		path: '/27_forwarding_refs',
+	},
 ];
 
 export const updateHexColor = () => {

@@ -27,6 +27,7 @@ import NormalizingState from './components/24_normalizing_state/NormalizingState
 import FormTips from './components/25_form_tips/FormTips';
 import ReactPortal from './components/26_react_portal/ReactPortal';
 import ForwardingRefs from './components/27_forwarding_refs/ForwardingRefs';
+import CapturingEvent from './components/28_capturing_event/CapturingEvent';
 
 const router = createBrowserRouter([
 	{
@@ -157,6 +158,10 @@ const router = createBrowserRouter([
 	{
 		path: '/27_forwarding_refs',
 		element: <ForwardingRefs />,
+	},
+	{
+		path: '/28_capturing_event',
+		element: <CapturingEvent />,
 	},
 ]);
 

@@ -134,6 +134,11 @@ export const componentsInfo = [
 		name: 'forwarding refs',
 		path: '/27_forwarding_refs',
 	},
+	{
+		id: 28,
+		name: 'capturing event',
+		path: '/28_capturing_event',
+	},
 ];
 
 export const updateHexColor = () => {

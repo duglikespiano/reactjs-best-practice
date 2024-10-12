@@ -139,6 +139,11 @@ export const componentsInfo = [
 		name: 'capturing event',
 		path: '/28_capturing_event',
 	},
+	{
+		id: 29,
+		name: 'keys',
+		path: '/29_keys',
+	},
 ];
 
 export const updateHexColor = () => {

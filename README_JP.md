@@ -49,3 +49,18 @@
 12. encapsulation
 13. separate components
 14. impossible state2
+15. grouping states
+16. state reset
+17. redundant state
+18. caching
+19. conditional rendering2
+20. currying handler
+21. enum
+22. factory pattern
+23. better if statement
+24. normalizing state
+25. form tips
+26. react portal
+27. forwarding refs
+28. capturing event
+29. keys

@@ -149,6 +149,11 @@ export const componentsInfo = [
 		name: 'error boundary',
 		path: '/30_error_boundary',
 	},
+	{
+		id: 31,
+		name: 'abort controller',
+		path: '/31_abort_controller',
+	},
 ];
 
 export const updateHexColor = () => {

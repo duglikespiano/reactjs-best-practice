@@ -30,6 +30,7 @@ import ForwardingRefs from './components/27_forwarding_refs/ForwardingRefs';
 import CapturingEvent from './components/28_capturing_event/CapturingEvent';
 import Keys from './components/29_keys/Keys';
 import ErrorBoundary from './components/30_error_boundary/ErrorBoundary';
+import AbortController from './components/31_abort_controller/AbortController';
 
 const router = createBrowserRouter([
 	{
@@ -172,6 +173,10 @@ const router = createBrowserRouter([
 	{
 		path: '/30_error_boundary',
 		element: <ErrorBoundary />,
+	},
+	{
+		path: '/31_abort_controller',
+		element: <AbortController />,
 	},
 ]);
 

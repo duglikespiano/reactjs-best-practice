@@ -29,6 +29,7 @@ import ReactPortal from './components/26_react_portal/ReactPortal';
 import ForwardingRefs from './components/27_forwarding_refs/ForwardingRefs';
 import CapturingEvent from './components/28_capturing_event/CapturingEvent';
 import Keys from './components/29_keys/Keys';
+import ErrorBoundary from './components/30_error_boundary/ErrorBoundary';
 
 const router = createBrowserRouter([
 	{
@@ -167,6 +168,10 @@ const router = createBrowserRouter([
 	{
 		path: '/29_keys',
 		element: <Keys />,
+	},
+	{
+		path: '/30_error_boundary',
+		element: <ErrorBoundary />,
 	},
 ]);
 

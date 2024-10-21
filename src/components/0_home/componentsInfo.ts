@@ -144,6 +144,11 @@ export const componentsInfo = [
 		name: 'keys',
 		path: '/29_keys',
 	},
+	{
+		id: 30,
+		name: 'error boundary',
+		path: '/30_error_boundary',
+	},
 ];
 
 export const updateHexColor = () => {

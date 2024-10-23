@@ -64,3 +64,5 @@
 27. forwarding refs
 28. capturing event
 29. keys
+30. Error boundary
+31. Abort controller

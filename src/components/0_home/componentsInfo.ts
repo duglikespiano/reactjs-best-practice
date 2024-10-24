@@ -154,6 +154,11 @@ export const componentsInfo = [
 		name: 'abort controller',
 		path: '/31_abort_controller',
 	},
+	{
+		id: 32,
+		name: 'unnecessary rendering',
+		path: '/32_unnecessary_rendering',
+	},
 ];
 
 export const updateHexColor = () => {

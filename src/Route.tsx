@@ -32,6 +32,7 @@ import Keys from './components/29_keys/Keys';
 import ErrorBoundary from './components/30_error_boundary/ErrorBoundary';
 import AbortController from './components/31_abort_controller/AbortController';
 import UnnecessaryRendering from './components/32_unnecessary_rendering/UnnecessaryRendering';
+import UsingCustomHooks from './components/33_using_custom_hooks/UsingCustomHooks';
 
 const router = createBrowserRouter([
 	{
@@ -182,6 +183,10 @@ const router = createBrowserRouter([
 	{
 		path: '/32_unnecessary_rendering',
 		element: <UnnecessaryRendering />,
+	},
+	{
+		path: '/33_using_custom_hooks',
+		element: <UsingCustomHooks />,
 	},
 ]);
 

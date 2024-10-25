@@ -159,6 +159,11 @@ export const componentsInfo = [
 		name: 'unnecessary rendering',
 		path: '/32_unnecessary_rendering',
 	},
+	{
+		id: 33,
+		name: 'using custom hooks',
+		path: '/33_using_custom_hooks',
+	},
 ];
 
 export const updateHexColor = () => {

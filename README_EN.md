@@ -66,3 +66,4 @@
 29. keys
 30. Error boundary
 31. Abort controller
+32. Unnecessary rendering

@@ -33,6 +33,7 @@ import ErrorBoundary from './components/30_error_boundary/ErrorBoundary';
 import AbortController from './components/31_abort_controller/AbortController';
 import UnnecessaryRendering from './components/32_unnecessary_rendering/UnnecessaryRendering';
 import UsingCustomHooks from './components/33_using_custom_hooks/UsingCustomHooks';
+import UseMemo from './components/34_usememo/UseMemo';
 
 const router = createBrowserRouter([
 	{
@@ -187,6 +188,10 @@ const router = createBrowserRouter([
 	{
 		path: '/33_using_custom_hooks',
 		element: <UsingCustomHooks />,
+	},
+	{
+		path: '/34_usememo',
+		element: <UseMemo />,
 	},
 ]);
 

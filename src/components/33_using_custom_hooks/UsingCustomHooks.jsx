@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 export default function UsingCustomHooks() {
 	return <div style={{ fontSize: '5rem' }}>Please check the code on my GitHub</div>;
@@ -39,38 +39,38 @@ export default function UsingCustomHooks() {
 // )
 // };
 
-const useUser = () => {
-	const [user, setUser] = useState(null);
+// const useUser = () => {
+// 	const [user, setUser] = useState(null);
 
-	useEffect(() => {
-		const fetchUser = async () => {
-			const res = await fetch('https://test.com');
-			const json = await res.json();
-			setUser(json);
-		};
-		fetchUser();
-	}, []);
+// 	useEffect(() => {
+// 		const fetchUser = async () => {
+// 			const res = await fetch('https://test.com');
+// 			const json = await res.json();
+// 			setUser(json);
+// 		};
+// 		fetchUser();
+// 	}, []);
 
-	return { user };
-};
+// 	return { user };
+// };
 
-const MainPage = () => {
-	const { user } = useUser();
-	if (!user) {
-		return <h1>Login first!</h1>;
-	}
-	return <h1>{user.fullname} has logged in</h1>;
-};
+// const MainPage = () => {
+// 	const { user } = useUser();
+// 	if (!user) {
+// 		return <h1>Login first!</h1>;
+// 	}
+// 	return <h1>{user.fullname} has logged in</h1>;
+// };
 
-const ProfilePage = () => {
-	const { user } = useUser();
-	return (
-		<div>
-			<h1>{user.fullname}</h1>
-			<h2>{user.title}</h2>
-		</div>
-	);
-};
+// const ProfilePage = () => {
+// 	const { user } = useUser();
+// 	return (
+// 		<div>
+// 			<h1>{user.fullname}</h1>
+// 			<h2>{user.title}</h2>
+// 		</div>
+// 	);
+// };
 
-MainPage();
-ProfilePage();
+// MainPage();
+// ProfilePage();

@@ -35,6 +35,7 @@ import UnnecessaryRendering from './components/32_unnecessary_rendering/Unnecess
 import UsingCustomHooks from './components/33_using_custom_hooks/UsingCustomHooks';
 import UseMemo from './components/34_usememo/UseMemo';
 import UseMemo2 from './components/35_usememo2/UseMemo2';
+import UseCallback from './components/36_usecallback/UseCallback';
 
 const router = createBrowserRouter([
 	{
@@ -197,6 +198,10 @@ const router = createBrowserRouter([
 	{
 		path: '/35_usememo2',
 		element: <UseMemo2 />,
+	},
+	{
+		path: '/36_usecallback',
+		element: <UseCallback />,
 	},
 ]);
 

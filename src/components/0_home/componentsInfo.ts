@@ -174,6 +174,11 @@ export const componentsInfo = [
 		name: 'usememo2',
 		path: '/35_usememo2',
 	},
+	{
+		id: 36,
+		name: 'usecallback',
+		path: '/36_usecallback',
+	},
 ];
 
 export const updateHexColor = () => {

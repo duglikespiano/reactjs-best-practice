@@ -34,6 +34,7 @@ import AbortController from './components/31_abort_controller/AbortController';
 import UnnecessaryRendering from './components/32_unnecessary_rendering/UnnecessaryRendering';
 import UsingCustomHooks from './components/33_using_custom_hooks/UsingCustomHooks';
 import UseMemo from './components/34_usememo/UseMemo';
+import UseMemo2 from './components/35_usememo2/UseMemo2';
 
 const router = createBrowserRouter([
 	{
@@ -192,6 +193,10 @@ const router = createBrowserRouter([
 	{
 		path: '/34_usememo',
 		element: <UseMemo />,
+	},
+	{
+		path: '/35_usememo2',
+		element: <UseMemo2 />,
 	},
 ]);
 

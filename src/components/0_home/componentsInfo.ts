@@ -179,6 +179,11 @@ export const componentsInfo = [
 		name: 'usecallback',
 		path: '/36_usecallback',
 	},
+	{
+		id: 37,
+		name: 'useeffect with named function',
+		path: '/37_useeffect_with_named_function',
+	},
 ];
 
 export const updateHexColor = () => {

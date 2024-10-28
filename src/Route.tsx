@@ -36,6 +36,7 @@ import UsingCustomHooks from './components/33_using_custom_hooks/UsingCustomHook
 import UseMemo from './components/34_usememo/UseMemo';
 import UseMemo2 from './components/35_usememo2/UseMemo2';
 import UseCallback from './components/36_usecallback/UseCallback';
+import UseEffectWithNamedFunction from './components/37_useeffect_with_named_function/UseEffectWithNamedFunction';
 
 const router = createBrowserRouter([
 	{
@@ -202,6 +203,10 @@ const router = createBrowserRouter([
 	{
 		path: '/36_usecallback',
 		element: <UseCallback />,
+	},
+	{
+		path: '/37_useeffect_with_named_function',
+		element: <UseEffectWithNamedFunction />,
 	},
 ]);
 

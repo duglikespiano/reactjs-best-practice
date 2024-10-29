@@ -184,6 +184,11 @@ export const componentsInfo = [
 		name: 'useeffect with named function',
 		path: '/37_useeffect_with_named_function',
 	},
+	{
+		id: 38,
+		name: 'separate logics',
+		path: '/38_separate_logics',
+	},
 ];
 
 export const updateHexColor = () => {

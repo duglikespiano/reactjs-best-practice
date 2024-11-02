@@ -67,3 +67,9 @@
 30. Error boundary
 31. Abort controller
 32. Unnecessary rendering
+33. Using custom hooks
+34. useMemo
+35. useMemo2
+36. useCallback
+37. useEffect with named function
+38. Separate logics

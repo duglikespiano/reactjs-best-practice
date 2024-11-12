@@ -38,6 +38,7 @@ import UseMemo2 from './components/35_usememo2/UseMemo2';
 import UseCallback from './components/36_usecallback/UseCallback';
 import UseEffectWithNamedFunction from './components/37_useeffect_with_named_function/UseEffectWithNamedFunction';
 import SeparateLogics from './components/38_separate_logics/SeparateLogics';
+import HandlingFetch from './components/39_handling_fetch/HandlingFetch';
 
 const router = createBrowserRouter([
 	{
@@ -212,6 +213,10 @@ const router = createBrowserRouter([
 	{
 		path: '/38_separate_logics',
 		element: <SeparateLogics />,
+	},
+	{
+		path: '/39_handling_fetch',
+		element: <HandlingFetch />,
 	},
 ]);
 

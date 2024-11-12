@@ -189,6 +189,11 @@ export const componentsInfo = [
 		name: 'separate logics',
 		path: '/38_separate_logics',
 	},
+	{
+		id: 39,
+		name: 'handling fetch',
+		path: '/39_handling_fetch',
+	},
 ];
 
 export const updateHexColor = () => {

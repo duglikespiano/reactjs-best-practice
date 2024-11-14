@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function UnnecessaryUseeffect() {
+export default function UnnecessaryUseEffect() {
 	const [courses, setCourses] = useState([]);
 	const [selectedCourse, setSelectedCourse] = useState(null);
 

@@ -9,7 +9,7 @@ import ProviderWrappingHell from './components/6_provider_wrapping_hell/Provider
 import RushingIntoReactMemo from './components/7_rushing_into_react_memo/RushingIntoReactMemo';
 import SyncingStatesViaUseeffect from './components/8_syncing_states_via_useeffect/SyncingStatesViaUseeffect';
 import ConditionalRendering from './components/9_conditional_rendering/ConditionalRendering';
-import UnnecessaryUseeffect from './components/10_unnecessary_useeffect/UnnecessaryUseeffect';
+import UnnecessaryUseEffect from './components/10_unnecessary_useeffect/UnnecessaryUseEffect';
 import ImpossibleState from './components/11_impossible_state/ImpossibleState';
 import Encapsulation from './components/12_encapsulation/Encapsulation';
 import SeparateComponents from './components/13_separate_components/SeparateComponents';
@@ -39,6 +39,7 @@ import UseCallback from './components/36_usecallback/UseCallback';
 import UseEffectWithNamedFunction from './components/37_useeffect_with_named_function/UseEffectWithNamedFunction';
 import SeparateLogics from './components/38_separate_logics/SeparateLogics';
 import HandlingFetch from './components/39_handling_fetch/HandlingFetch';
+import UnnecessaryUseEffect2 from './components/40_unnecessary_useeffect2/UnnecessaryUseEffect2';
 
 const router = createBrowserRouter([
 	{
@@ -83,7 +84,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: '/10_unnecessary_useeffect',
-		element: <UnnecessaryUseeffect />,
+		element: <UnnecessaryUseEffect />,
 	},
 	{
 		path: '/11_impossible_state',
@@ -217,6 +218,10 @@ const router = createBrowserRouter([
 	{
 		path: '/39_handling_fetch',
 		element: <HandlingFetch />,
+	},
+	{
+		path: '/40_unnecessary_useeffect2',
+		element: <UnnecessaryUseEffect2 />,
 	},
 ]);
 

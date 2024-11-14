@@ -74,3 +74,4 @@
 37. useEffect with named function
 38. Separate logics
 39. Handling fetch
+40. Unnecessary useEffect2

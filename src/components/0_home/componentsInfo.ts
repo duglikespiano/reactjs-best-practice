@@ -1,7 +1,7 @@
 export const componentsInfo = [
 	{
 		id: 1,
-		name: 'useState is async',
+		name: 'usestate is async',
 		path: '/1_usestate_is_async',
 	},
 	{
@@ -11,7 +11,7 @@ export const componentsInfo = [
 	},
 	{
 		id: 3,
-		name: 'unnecessary useState',
+		name: 'unnecessary usestate',
 		path: '/3_unnecessary_usestate',
 	},
 	{
@@ -193,6 +193,11 @@ export const componentsInfo = [
 		id: 39,
 		name: 'handling fetch',
 		path: '/39_handling_fetch',
+	},
+	{
+		id: 40,
+		name: 'unnecessary useeffect2',
+		path: '/40_unnecessary_useeffect2',
 	},
 ];
 

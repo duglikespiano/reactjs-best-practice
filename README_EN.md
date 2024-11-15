@@ -36,34 +36,34 @@
 ### 3. content
 
 1. useState is async
-2. default value
-3. unnecessary useState
-4. mutating object
-5. prop drilling
-6. provider wrapping hell
-7. rushing into react memo
-8. syncing states via useEffect
-9. conditional rendering
-10. unnecessary useEffect
-11. impossible state
-12. encapsulation
-13. separate components
-14. impossible state2
-15. grouping states
+2. Default value
+3. Unnecessary useState
+4. Mutating object
+5. Prop drilling
+6. Provider wrapping hell
+7. Rushing into react memo
+8. Syncing states via useEffect
+9. Conditional rendering
+10. Unnecessary useEffect
+11. Impossible state
+12. Encapsulation
+13. Separate components
+14. Impossible state2
+15. Grouping states
 16. state reset
-17. redundant state
-18. caching
-19. conditional rendering2
-20. currying handler
-21. enum
-22. factory pattern
-23. better if statement
-24. normalizing state
-25. form tips
-26. react portal
-27. forwarding refs
-28. capturing event
-29. keys
+17. Redundant state
+18. Caching
+19. Conditional rendering2
+20. Currying handler
+21. Enum
+22. Factory pattern
+23. Better if statement
+24. Normalizing state
+25. Form tips
+26. React portal
+27. Forwarding refs
+28. Capturing event
+29. Keys
 30. Error boundary
 31. Abort controller
 32. Unnecessary rendering

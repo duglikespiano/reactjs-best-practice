@@ -31,6 +31,7 @@
 
 1. To learn good, bad react code practices
 2. To study knowledge about react hooks
+3. To learn react code written with Typescript
    </br>
    </br>
 

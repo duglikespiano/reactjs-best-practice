@@ -31,6 +31,7 @@
 
 1. 良い、悪い react コード作成について学ぶこと
 2. react hooks についての知識を学ぶこと
+3. Typescript を活用した react코드に慣れること
    </br>
    </br>
 

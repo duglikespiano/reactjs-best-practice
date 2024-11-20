@@ -31,6 +31,7 @@
 
 1. 좋은, 좋지않은 react코드 작성에 대해 익힐 것
 2. react hooks에 대한 지식을 익힐 것
+3. Typescript를 활용한 react코드를 익힐 것
    </br>
    </br>
 

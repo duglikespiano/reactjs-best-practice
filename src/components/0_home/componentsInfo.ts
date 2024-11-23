@@ -199,6 +199,11 @@ export const componentsInfo = [
 		name: 'unnecessary useeffect2',
 		path: '/40_unnecessary_useeffect2',
 	},
+	{
+		id: 41,
+		name: 'custom hooks',
+		path: '/41_custom_hooks',
+	},
 ];
 
 export const updateHexColor = () => {

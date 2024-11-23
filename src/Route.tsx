@@ -40,6 +40,7 @@ import UseEffectWithNamedFunction from './components/37_useeffect_with_named_fun
 import SeparateLogics from './components/38_separate_logics/SeparateLogics';
 import HandlingFetch from './components/39_handling_fetch/HandlingFetch';
 import UnnecessaryUseEffect2 from './components/40_unnecessary_useeffect2/UnnecessaryUseEffect2';
+import CustomHooks from './components/41_custom_hooks/CustomHooks';
 
 const router = createBrowserRouter([
 	{
@@ -222,6 +223,10 @@ const router = createBrowserRouter([
 	{
 		path: '/40_unnecessary_useeffect2',
 		element: <UnnecessaryUseEffect2 />,
+	},
+	{
+		path: '/41_custom_hooks',
+		element: <CustomHooks />,
 	},
 ]);
 

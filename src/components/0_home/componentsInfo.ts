@@ -204,6 +204,11 @@ export const componentsInfo = [
 		name: 'custom hooks',
 		path: '/41_custom_hooks',
 	},
+	{
+		id: 42,
+		name: 'better readibility with custom hooks',
+		path: '/42_better_readibility_with_custom_hooks',
+	},
 ];
 
 export const updateHexColor = () => {

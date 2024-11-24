@@ -41,6 +41,7 @@ import SeparateLogics from './components/38_separate_logics/SeparateLogics';
 import HandlingFetch from './components/39_handling_fetch/HandlingFetch';
 import UnnecessaryUseEffect2 from './components/40_unnecessary_useeffect2/UnnecessaryUseEffect2';
 import CustomHooks from './components/41_custom_hooks/CustomHooks';
+import BetterReadibilityWithCustomHooks from './components/42_better_readibility_with_custom_hooks/BetterReadibilityWithCustomHooks';
 
 const router = createBrowserRouter([
 	{
@@ -227,6 +228,10 @@ const router = createBrowserRouter([
 	{
 		path: '/41_custom_hooks',
 		element: <CustomHooks />,
+	},
+	{
+		path: '/42_better_readibility_with_custom_hooks',
+		element: <BetterReadibilityWithCustomHooks />,
 	},
 ]);
 

@@ -78,3 +78,4 @@
 39. Handling fetch
 40. Unnecessary useEffect2
 41. Custom hooks
+42. Better readibility with custom hooks
